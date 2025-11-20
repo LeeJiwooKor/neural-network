@@ -1,0 +1,12 @@
+{
+  "trainingDataFile": "trainingData.json",
+  "netFile": "net.json",
+  "memoryFile": "memory.json",
+  "layers": [
+    { "nodes": 2 },
+    { "nodes": 20, "activation": "relu" },
+    { "nodes": 1, "activation": "sigmoid" }
+  ],
+  "learningRate": 0.05,
+  "iterations": 50000
+}

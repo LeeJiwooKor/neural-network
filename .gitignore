@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Network & training data
+trainingData.json
+net.json
+memory.json
+
+# Optional local config overrides
+config.local.json
